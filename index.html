@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- sidebar -->
+    <div class="sidebar">
+        <i class="fab fa-twitter"></i>
+        <div class="sidebarOption active">
+            <span style="color:black" class="material-symbols-outlined">home</span>
+            <h2 style="font-weight: 900;">Home</h2>
+        </div>
+
+        <div class="sidebarOption">
+            <span class="material-symbols-outlined">tag</span>
+            <h2>Explore</h2>
+        </div>
+
+        <div class="sidebarOption">
+            <span class="material-symbols-outlined">notifications</span>
+            <h2>Notifications</h2>
+        </div>
+
+        <div class="sidebarOption">
+            <span class="material-symbols-outlined">mail</span>
+            <h2>Messages</h2>
+        </div>
+
+        <div class="sidebarOption">
+            <span class="material-symbols-outlined">bookmark</span>
+            <h2>Bookmarks</h2>
+        </div>
+
+        <div class="sidebarOption">
+            <span class="material-symbols-outlined">library_books</span>
+            <h2>Lists</h2>
+        </div>
+
+        <div class="sidebarOption">
+            <span class="material-symbols-outlined">person</span>
+            <h2>Profile</h2>
+        </div>
+
+        <div class="sidebarOption">
+            <span class="material-symbols-outlined">more_horiz</span>
+            <h2>More</h2>
+        </div>
+        <button class="tweetButton">Tweet</button>
+        <div class="profileIcon">
+            <img src="hennah.png"/>
+            <div class="name">
+                <h2>Carmela Wh</h2>
+                <span class="username">@billiejean</span>
+            </div>
+            
+        </div>
+    </div>
+
+
+   <!-- end --> 
+
+   <!-- feed -->
+   <div class="feed">
+    <div class="header">
+        <h2>Home</h2>
+        <nav>
+            <ul>
+                <li style="font-weight: bolder;">For You</li>
+                <li>Following</li>
+            </ul>
+        </nav>
+    </div>
+    
+       <!-- box -->
+       <div class="tweetBox">
+        <form>
+            <div class="tweetInput">
+                <img src="hennah.png"/>
+                <input type="type" placeholder="What's happening?"/>
+            </div>
+            <div class="postfooter" id="iconinput">
+                <span class="material-symbols-rounded">image</span>
+                <span class="material-symbols-rounded">gif_box</span>
+                <span class="material-symbols-rounded">checklist</span>
+                <span class="material-symbols-rounded">sentiment_satisfied</span>
+                <span class="material-symbols-rounded">pending_actions</span>
+                <span class="material-symbols-rounded">location_on</span>
+                <button class="boxButton">Tweet</button>
+            </div>
+
+        </form>
+       </div>
+       <!-- boxend -->
+
+       <!-- post -->
+       <div class="post">
+            <div class="profilepic">
+                <img src="jimmy.jpg">
+
+            </div>
+        <div class="postbody">
+            <div class="postheader">
+                <div class="postname">
+                    <h3>Jimmy Valmer
+                        <span class="postuser">
+                            @TheBardFastPass • 1m
+                        </span>
+                        </h3>
+                </div>
+                <div class="postTweet">
+                    <p>mark the date!</p>
+                </div>
+            </div>
+
+            <img src="barbie.gif" id="postpic"/>
+
+            <div class="postfooter">
+                <span class="material-symbols-rounded">chat_bubble</span>
+                <span class="material-symbols-rounded">repeat</span>
+                <span class="material-symbols-rounded">favorite</span>
+                <span class="material-symbols-rounded">bar_chart</span>
+                <span class="material-symbols-rounded">ios_share</span>
+            </div>
+        </div>
+       </div>
+       <!-- postend -->
+
+       <!-- post -->
+       <div class="post">
+        <div class="profilepic">
+            <img src="tweek.jpg">
+
+        </div>
+    <div class="postbody">
+        <div class="postheader">
+            <div class="postname">
+                <h3>Tweek Tweak
+                    <span class="postuser">
+                        @wondertweek • 1m
+                    </span>
+                    </h3>
+            </div>
+            <div class="postTweet">
+                <p>*spray paint noises* Aaaahhhh!</p>
+            </div>
+        </div>
+        <div class="postfooter">
+            <span class="material-symbols-rounded">chat_bubble</span>
+            <span class="material-symbols-rounded">repeat</span>
+            <span class="material-symbols-rounded">favorite</span>
+            <span class="material-symbols-rounded">bar_chart</span>
+            <span class="material-symbols-rounded">ios_share</span>
+        </div>
+    </div>
+   </div>
+   <!-- postend -->
+
+   <!-- post -->
+       <div class="post">
+            <div class="profilepic">
+                <img src="craig.jpg">
+
+            </div>
+        <div class="postbody">
+            <div class="postheader">
+                <div class="postname">
+                    <h3>Craig Tucker
+                        <span class="postuser">
+                            @supercraig • 15m
+                        </span>
+                        </h3>
+                </div>
+                <div class="postTweet">
+                    <p>Me and my super-partner- Stripe is so loyal and doesn't get butthurt when he's a little later on the <br> franchise plan than me LIKE SOMEONE</p>
+                </div>
+            </div>
+
+            <img src="craig.jpg " id="postpic"/>
+
+            <div class="postfooter">
+                <span class="material-symbols-rounded">chat_bubble</span>
+                <span class="material-symbols-rounded">repeat</span>
+                <span class="material-symbols-rounded">favorite</span>
+                <span class="material-symbols-rounded">bar_chart</span>
+                <span class="material-symbols-rounded">ios_share</span>
+            </div>
+        </div>
+       </div>
+       <!-- postend -->
+
+       <!-- post -->
+       <div class="post">
+        <div class="profilepic">
+            <img src="kyle.jpg">
+
+        </div>
+    <div class="postbody">
+        <div class="postheader">
+            <div class="postname">
+                <h3>Kyle Broflovski
+                    <span class="postuser">
+                        @TheHumanKite • 30m
+                    </span>
+                    </h3>
+            </div>
+            <div class="postTweet">
+                <p>cartman your so fat</p>
+            </div>
+        </div>
+
+        <div class="postfooter">
+            <span class="material-symbols-rounded">chat_bubble</span>
+            <span class="material-symbols-rounded">repeat</span>
+            <span class="material-symbols-rounded">favorite</span>
+            <span class="material-symbols-rounded">bar_chart</span>
+            <span class="material-symbols-rounded">ios_share</span>
+        </div>
+    </div>
+    
+   </div>
+   <!-- postend -->
+
+   <!-- post -->
+       <div class="post">
+            <div class="profilepic">
+                <img src="eric.jpg">
+
+            </div>
+        <div class="postbody">
+            <div class="postheader">
+                <div class="postname">
+                    <h3>Eric Cartman
+                        <span class="postuser">
+                            @coon • 35m
+                        </span>
+                        </h3>
+                </div>
+                <div class="postTweet">
+                    <p>kyle u stupid jew</p>
+                </div>
+            </div>
+            <div class="postfooter">
+                <span class="material-symbols-rounded">chat_bubble</span>
+                <span class="material-symbols-rounded">repeat</span>
+                <span class="material-symbols-rounded">favorite</span>
+                <span class="material-symbols-rounded">bar_chart</span>
+                <span class="material-symbols-rounded">ios_share</span>
+            </div>
+        </div>
+       </div>
+    <!-- postend -->
+
+    <!-- post -->
+       <div class="post">
+            <div class="profilepic">
+                <img src="kenny.png">
+
+            </div>
+        <div class="postbody">
+            <div class="postheader">
+                <div class="postname">
+                    <h3>Kenny McCormick
+                        <span class="postuser">
+                            @mysterion • 1h
+                        </span>
+                        </h3>
+                </div>
+                <div class="postTweet">
+                    <p>mph fhm mpphrrm mmph mph mfm mfmph</p>
+                </div>
+            </div>
+
+            <img src="mysterion.jpg" id="postpic"/>
+
+            <div class="postfooter">
+                <span class="material-symbols-rounded">chat_bubble</span>
+                <span class="material-symbols-rounded">repeat</span>
+                <span class="material-symbols-rounded">favorite</span>
+                <span class="material-symbols-rounded">bar_chart</span>
+                <span class="material-symbols-rounded">ios_share</span>
+            </div>
+        </div>
+       </div>
+    <!-- postend -->
+
+    <!-- post -->
+       <div class="post">
+            <div class="profilepic">
+                <img src="stan1.jpg">
+
+            </div>
+        <div class="postbody">
+            <div class="postheader">
+                <div class="postname">
+                    <h3>Stan Marsh
+                        <span class="postuser">
+                            @toolshed • 1h
+                        </span>
+                        </h3>
+                </div>
+                <div class="postTweet">
+                    <p>Happy Anniversary, Babe! ♥♥♥</p>
+                </div>
+            </div>
+
+            <img src="stanwendy.gif" id="postpic"/>
+
+            <div class="postfooter">
+                <span class="material-symbols-rounded">chat_bubble</span>
+                <span class="material-symbols-rounded">repeat</span>
+                <span class="material-symbols-rounded">favorite</span>
+                <span class="material-symbols-rounded">bar_chart</span>
+                <span class="material-symbols-rounded">ios_share</span>
+            </div>
+        </div>
+       </div>
+    <!-- postend -->
+
+    <!-- post -->
+       <div class="post">
+            <div class="profilepic">
+                <img src="wendy.png">
+
+            </div>
+        <div class="postbody">
+            <div class="postheader">
+                <div class="postname">
+                    <h3>Wendy Testaburger
+                        <span class="postuser">
+                            @callgirl • 1h
+                        </span>
+                        </h3>
+                </div>
+                <div class="postTweet">
+                    <p>♥</p>
+                </div>
+            </div>
+
+            <img src="wendystan.png" id="postpic"/>
+
+            <div class="postfooter">
+                <span class="material-symbols-rounded">chat_bubble</span>
+                <span class="material-symbols-rounded">repeat</span>
+                <span class="material-symbols-rounded">favorite</span>
+                <span class="material-symbols-rounded">bar_chart</span>
+                <span class="material-symbols-rounded">ios_share</span>
+            </div>
+        </div>
+       </div>
+
+    <!-- post -->
+       <div class="post">
+            <div class="profilepic">
+                <img src="timmy.png">
+
+            </div>
+        <div class="postbody">
+            <div class="postheader">
+                <div class="postname">
+                    <h3>Timmy Burch
+                        <span class="postuser">
+                            @DrTimothy • 3h
+                        </span>
+                        </h3>
+                </div>
+                <div class="postTweet">
+                    <p>TIMMY!!!</p>
+                </div>
+            </div>
+
+            <div class="postfooter">
+                <span class="material-symbols-rounded">chat_bubble</span>
+                <span class="material-symbols-rounded">repeat</span>
+                <span class="material-symbols-rounded">favorite</span>
+                <span class="material-symbols-rounded">bar_chart</span>
+                <span class="material-symbols-rounded">ios_share</span>
+            </div>
+        </div>
+       </div>
+    <!-- postend -->
+    <!-- postend -->
+
+   </div>
+   <!-- end -->
+
+   <!-- sideleft -->
+    <div class="sideleft">
+        <div class="searchInput">
+            <span class="material-symbols-outlined">search</span>
+            <input type="text" placeholder="Search Twitter"/>
+        </div>
+        <div class="widgetContainer">
+            <H2>Trends for you</H2>
+            <div class="trendbody">
+                    <div class="trendheader">
+                        <div class="trendabove">
+                            <p>Trending in South Park </p>
+                        </div>
+                    </div>
+                    <div class="trending">
+                        <h3>#LordeTrueIdentity</h3>
+                    </div>
+                    
+                    <div class="trendcount">
+                        <p>2.3M Tweets</p>
+                    </div>
+
+                    <div class="trendheader">
+                        <div class="trendabove">
+                            <p>Only on Twitter • Trending </p>
+                        </div>
+                        <div class="trending">
+                            <h3>#KennyDeadAgain</h3>
+                        </div>
+                        <div class="trendcount">
+                            <p>398K Tweets</p>
+                        </div>
+                    </div>
+
+                    <div class="trendheader">
+                        <div class="trendabove">
+                            <p>Trending in South Park</p>
+                        </div>
+                        <div class="trending">
+                            <h3>#WendyVsCartman</h3>
+                        </div>
+                        <div class="trendcount">
+                            <p>1.4M Tweets</p>
+                        </div>
+                    </div>
+            </div>
+            <h2>What's happening?
+                <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Happy birthday, Randy! <a href="https://t.co/iA1mp2SOF2">pic.twitter.com/iA1mp2SOF2</a></p>&mdash; Tegridy Farms (@tegridyfarms) <a href="https://twitter.com/tegridyfarms/status/1631060750415347713?ref_src=twsrc%5Etfw">March 1, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </h2>
+            
+        </div>
+    </div>
+
+    <!-- sideend -->
+</body>
+</html>
